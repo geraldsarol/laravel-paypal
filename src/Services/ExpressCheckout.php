@@ -179,7 +179,7 @@ class ExpressCheckout
 
         $this->setShippingDiscount($data);
 
-        $this->setExpressCheckoutRecurringPaymentConfig($data, $subscription);
+        //$this->setExpressCheckoutRecurringPaymentConfig($data, $subscription);
 
         $response = $this->doPayPalRequest('SetExpressCheckout');
 
